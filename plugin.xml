@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns           =   "http://www.phonegap.com/ns/plugins/1.0" 
         id              =   "cordova-plugin-freshdesk-mobihelp" 
-        version         =   "1.1.0">
-
-
-
-    <!-- Meta -->
-    <name>Mobihelp Plugin for Phonegap</name>
-    <description>Plugin for integrating Freshdesk's SDK (Mobihelp) into a Phonegap/Cordova project</description>
-    <keywords>freshdesk,mobihelp</keywords>
-
-    
+        version         =   "1.1.0">   
 
     <engines>
       <engine name="cordova-android" version=">=4.0.0" />
