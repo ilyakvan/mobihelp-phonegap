@@ -3,7 +3,7 @@
     package="com.freshdesk.mobihelp"
     android:versionCode="1"
     android:versionName="1.0" >
-    
+
      <uses-sdk
         android:minSdkVersion="10" />
 
@@ -24,6 +24,11 @@
             android:theme="@style/Theme.Mobihelp"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
+        <activity
+            android:name="com.freshdesk.mobihelp.activity.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.AppCompat">
+		</activity>
         <activity
             android:name="com.freshdesk.mobihelp.activity.TicketListActivity"
             android:parentActivityName="com.freshdesk.mobihelp.activity.SolutionArticleListActivity"
@@ -67,7 +72,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.freshdesk.mobihelp.activity.SolutionArticleListActivity" />
         </activity>
-        
+
         <service android:name="com.freshdesk.mobihelp.service.MobihelpService" />
 
         <receiver android:name="com.freshdesk.mobihelp.receiver.ConnectivityReceiver" >
